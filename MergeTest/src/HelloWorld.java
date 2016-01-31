@@ -5,6 +5,6 @@ public class HelloWorld {
 		System.out.println("Hello World!");
 	}
 	public void say(String s) {
-		System.out.println(s);
+		System.out.println("You said, \"" + s + ".\"");
 	}
 }
