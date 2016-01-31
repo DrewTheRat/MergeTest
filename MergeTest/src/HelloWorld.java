@@ -7,7 +7,7 @@ public class HelloWorld {
 		i++;
 	}
 	public void say(String s) {
-		System.out.println(s);
+		System.out.println("You said, \"" + s + ".\"");
 		i++;
 	}
 }
