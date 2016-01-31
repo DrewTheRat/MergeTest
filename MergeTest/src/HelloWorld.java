@@ -6,4 +6,7 @@ public class HelloWorld {
 		System.out.println("Hello World!");
 		i++;
 	}
+	public void say(String s) {
+		System.out.println(s);
+	}
 }
