@@ -10,4 +10,8 @@ public class HelloWorld {
 		System.out.println("You said, \"" + s + ".\"");
 		i++;
 	}
+	public void shout(String s) {
+		System.out.println(s.toUpperCase());
+		i++;
+	}
 }
