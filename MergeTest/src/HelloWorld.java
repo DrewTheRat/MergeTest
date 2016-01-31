@@ -1,7 +1,7 @@
 
 public class HelloWorld {
 
-	public int i = 0;
+	private int i = 0;
 	/**
 	 * Say hello
 	 */
@@ -19,5 +19,8 @@ public class HelloWorld {
 	public void shout(String s) {
 		System.out.println(s.toUpperCase());
 		i++;
+	}
+	public int howManyTimes(){
+		return i;
 	}
 }
