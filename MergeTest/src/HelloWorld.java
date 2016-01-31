@@ -8,5 +8,6 @@ public class HelloWorld {
 	}
 	public void say(String s) {
 		System.out.println(s);
+		i++;
 	}
 }
