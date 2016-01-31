@@ -16,6 +16,9 @@ public class HelloWorld {
 		System.out.println("You said, \"" + s + ".\"");
 		i++;
 	}
+	/**
+	 * If you can't say something nice, say it in all CAPS.
+	 */
 	public void shout(String s) {
 		System.out.println(s.toUpperCase());
 		i++;
